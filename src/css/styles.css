@@ -1,13 +1,4 @@
 /* 
     Write your custom CSS here and also abstract your Tailwind css using @apply
 */
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Alatsi, sans-serif;
-}
+@import 'headings.css';
