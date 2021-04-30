@@ -593,6 +593,15 @@ video {
     Write your custom CSS here and also abstract your Tailwind css using @apply
 */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Alatsi, sans-serif;
+}
+
 /* Custom CSS. Ensure this comes before the tailwind utilities*/
 
 /* purgecss end ignore */
