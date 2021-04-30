@@ -10,7 +10,7 @@
   <body>
 
   <!-- NAV -->
-  <nav class="flex items-center justify-between flex-wrap bg-primary-600 p-6">
+  <nav class="flex items-center justify-between flex-wrap bg-primary-600 p-6 fixed w-full" style="z-index: 999;">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
         <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/>
@@ -45,49 +45,52 @@
   </nav>
 
 <!-- ROADMAP -->
-  <section id="roadmap" class="bg-background bg-contain">
+  <section id="roadmap" class="bg-background bg-no-repeat bg-cover">
     <div class="container mx-auto w-full h-full">
+      <div class="w-full text-center font-bold text-white text-7xl capitalize py-4">
+        Roadmap
+      </div>
       <div class="relative wrap overflow-hidden p-10 h-full w-full">
-        <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
+        <div class="border-2-2 absolute border-primary-800 h-full border" style="left: 50%"></div>
         <!-- right timeline -->
         <div class="mb-8 flex justify-between items-center w-full right-timeline">
           <div class="order-1 w-5/12"></div>
-          <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-            <h1 class="mx-auto font-semibold text-lg text-white bg-primary-600 rounded-md">Q1</h1>
+          <div class="z-20 flex items-center order-1 bg-primary-600 shadow-xl w-8 h-8 rounded-full">
+            <h1 class="mx-auto font-semibold text-lg text-white">Q1</h1>
           </div>
-          <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-gray-800 text-xl">Market research</h3>
-            <h3 class="mb-3 font-bold text-gray-800 text-xl">Project concept finalized</h3>
-            <h3 class="mb-3 font-bold text-gray-800 text-xl">Team Assembled</h3>
+          <div class="order-1 bg-white text-white bg-opacity-10 rounded-lg shadow-xl w-5/12 px-4 py-4">
+            <h3 class="mb-3 font-bold text-lg">Market research</h3>
+            <h3 class="mb-3 font-bold text-lg">Project concept finalized</h3>
+            <h3 class="mb-3 font-bold text-lg">Team Assembled</h3>
           </div>
         </div>
 
         <!-- left timeline -->
         <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
           <div class="order-1 w-5/12"></div>
-          <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+          <div class="z-20 flex items-center order-1 bg-primary-600 shadow-xl w-8 h-8 rounded-full">
             <h1 class="mx-auto text-white font-semibold text-lg">Q2</h1>
           </div>
-          <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-white text-xl">Token Sale</h3>
-            <h3 class="mb-3 font-bold text-white text-xl">Lite Paper Release</h3>
-            <h3 class="mb-3 font-bold text-white text-xl">Community Building</h3>
-            <h3 class="mb-3 font-bold text-white text-xl">Strategic Partnerships</h3>
-            <h3 class="mb-3 font-bold text-white text-xl">Talent Onboarding</h3>
+          <div class="order-1 bg-white text-white bg-opacity-10 rounded-lg shadow-xl w-5/12 px-4 py-4">
+            <h3 class="mb-3 font-bold text-white text-lg">Token Sale</h3>
+            <h3 class="mb-3 font-bold text-white text-lg">Lite Paper Release</h3>
+            <h3 class="mb-3 font-bold text-white text-lg">Community Building</h3>
+            <h3 class="mb-3 font-bold text-white text-lg">Strategic Partnerships</h3>
+            <h3 class="mb-3 font-bold text-white text-lg">Talent Onboarding</h3>
           </div>
         </div>
 
         <!-- right timeline -->
         <div class="mb-8 flex justify-between items-center w-full right-timeline">
           <div class="order-1 w-5/12"></div>
-          <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+          <div class="z-20 flex items-center order-1 bg-primary-600 shadow-xl w-8 h-8 rounded-full">
             <h1 class="mx-auto font-semibold text-lg text-white">Q3</h1>
           </div>
-          <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-gray-800 text-xl">NFT Junkies Drops</h3>
-            <h3 class="mb-3 font-bold text-gray-800 text-xl">Develop Platform</h3>
-            <h3 class="mb-3 font-bold text-gray-800 text-xl">Uniswap Listing</h3>
-            <h3 class="mb-3 font-bold text-gray-800 text-xl">Launch Marketing</h3>
+          <div class="order-1 bg-white text-white bg-opacity-10 rounded-lg shadow-xl w-5/12 px-4 py-4">
+            <h3 class="mb-3 font-bold text-lg">NFT Junkies Drops</h3>
+            <h3 class="mb-3 font-bold text-lg">Develop Platform</h3>
+            <h3 class="mb-3 font-bold text-lg">Uniswap Listing</h3>
+            <h3 class="mb-3 font-bold text-lg">Launch Marketing</h3>
 
           </div>
         </div>
@@ -95,12 +98,12 @@
         <!-- left timeline -->
         <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
           <div class="order-1 w-5/12"></div>
-          <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+          <div class="z-20 flex items-center order-1 bg-primary-600 shadow-xl w-8 h-8 rounded-full">
             <h1 class="mx-auto text-white font-semibold text-lg">Q4</h1>
           </div>
-          <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-            <h3 class="mb-3 font-bold text-white text-xl">CEX Listing</h3>
-            <h3 class="mb-3 font-bold text-white text-xl">Further Growth & Expansion</h3>
+          <div class="order-1 bg-white text-white bg-opacity-10 rounded-lg shadow-xl w-5/12 px-4 py-4">
+            <h3 class="mb-3 font-bold text-white text-lg">CEX Listing</h3>
+            <h3 class="mb-3 font-bold text-white text-lg">Further Growth & Expansion</h3>
           </div>
         </div>
       </div>
